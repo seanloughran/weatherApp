@@ -3,20 +3,33 @@
 
   <head>
     <title>Weather APP</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
 
   <body>
 
-    <form>
-      City: <br>
-      <input type="textbox">
-      <input type="submit">
-    </form>
+    <div id="blackBox">
+      <h1>Loading</h1>
+    </div>
 
-    <p id="testP">Test</p>
+    <section id="outside-main">
+
+      <section id="inside-main">
+
+        <button id="switch">Celsius</button>
+
+        <h1 id="temph1"><span id="temp" data-temp="f"></span>&deg;</h1>
+        <h1 id="place"></h1>
+
+      </section>
+      <!-- End of inside main section -->
+
+    </section>
+    <!-- End of outside main section -->
 
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/key.js"></script>
   </body>
 
 </html>

@@ -1,0 +1,66 @@
+body {margin: 0;}
+
+#blackBox {
+  background-color: black;
+  z-index: 1;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#blackBox h1 {
+  color: white;
+}
+
+#outside-main {
+  width: 100%;
+  height: 100vh;
+/*   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCU2FnXQqNjcGVu_FLs_EuJzi-ptTj-SKIh8eCT4bfXY31H1wMA"); */
+  background-size: 100% 100%;
+  background-repeat: no-repeat; */
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#inside-main {
+  display: inline-block;
+  width: 90%;
+  height: 94vh;
+  background: rgb(255,255,255);
+  background: rgba(0,0,0,.3);
+/*   margin: 3%; */
+  border-radius: 20px;
+  color: white;
+  padding-left: 5%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#switch {
+  width: 40%;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#switch:focus {
+  outline: 0;
+}
+
+#temph1 {
+  font-size: 40vw;
+  margin: 0;
+}
+
+#place {
+  font-size: 3vw;
+  padding-left: 5%;
+  margin: 0;
+}
