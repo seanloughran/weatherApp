@@ -76,31 +76,31 @@ $(document).ready(function() {
 
           switch (icon) {
             case "clear-night":
-              $("#outside-main").css("background-image", 'url("../images/nightsky.jpg")');
+              $("#outside-main").css("background-image", 'url("images/nightsky.jpg")');
               break;
             case "rain":
-              $("#outside-main").css("background-image", 'url("../images/rain.jpg")');
+              $("#outside-main").css("background-image", 'url("images/rain.jpg")');
               break;
             case "snow":
-              $("#outside-main").css("background-image", 'url("../images/snow.jpg")');
+              $("#outside-main").css("background-image", 'url("images/snow.jpg")');
               break;
             case "sleet":
-              $("#outside-main").css("background-image", 'url("../images/sleet.jpg")');
+              $("#outside-main").css("background-image", 'url("images/sleet.jpg")');
               break;
             case "wind":
-              $("#outside-main").css("background-image", 'url("../images/wind.jpg")');
+              $("#outside-main").css("background-image", 'url("images/wind.jpg")');
               break;
             case "fog":
-              $("#outside-main").css("background-image", 'url("../images/fog.jpg")');
+              $("#outside-main").css("background-image", 'url("images/fog.jpg")');
               break;
             case "cloudy":
-              $("#outside-main").css("background-image", 'url("../images/clouds.jpg")');
+              $("#outside-main").css("background-image", 'url("images/clouds.jpg")');
               break;
             case "partly-cloudy-day":
-               $("#outside-main").css("background-image", 'url("../images/partlycloudy.jpg")');
+               $("#outside-main").css("background-image", 'url("images/partlycloudy.jpg")');
               break;
             default:
-              $("#outside-main").css("background-image", 'url("../images/clearday.jpg")');
+              $("#outside-main").css("background-image", 'url("images/clearday.jpg")');
           }
 
           $("#blackBox").css("display", "none");
