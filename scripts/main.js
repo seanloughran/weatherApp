@@ -1,3 +1,5 @@
+//AIzaSyCzgzYNnZAyw6TSIZJ46HHtjzr8puUwOpQ
+
 $(document).ready(function() {
 
   var far = "";
@@ -34,13 +36,12 @@ $(document).ready(function() {
       var lat = position.coords.latitude;
       var long = position.coords.longitude;
       var latlng = {lat: lat, lng: long};
-      var googleKEY = "679039406e42fb183bd1bdf8f3155b71";
-      var forecastKEY = "AIzaSyCzgzYNnZAyw6TSIZJ46HHtjzr8puUwOpQ";
+      var forecastKEY = "679039406e42fb183bd1bdf8f3155b71";
       var url = "https://api.forecast.io/forecast/";
 
       // Start of reverse geo request for address.
       $.ajax({
-        url: "https://maps.googleapis.com/maps/api/js?key=" + googleKEY,
+        url: "https://maps.googleapis.com/maps/api/js?key=AIzaSyCzgzYNnZAyw6TSIZJ46HHtjzr8puUwOpQ",
         type: "GET",
         dataType: 'jsonp',
         success: function(data) {
@@ -102,12 +103,12 @@ $(document).ready(function() {
               $("#outside-main").css("background-image", 'url("../images/clearday.jpg")');
           }
 
-          // $("#blackBox").css("display", "none");
+          $("#blackBox").css("display", "none");
         }
 
       });
 
-      // Start of request for weather forecast.
+      // End of request for weather forecast.
 
 
     }
