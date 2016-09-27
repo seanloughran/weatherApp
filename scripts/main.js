@@ -1,5 +1,3 @@
-//AIzaSyCzgzYNnZAyw6TSIZJ46HHtjzr8puUwOpQ
-
 $(document).ready(function() {
 
   var dots = 0;
